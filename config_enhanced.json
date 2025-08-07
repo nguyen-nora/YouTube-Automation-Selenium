@@ -1,0 +1,89 @@
+{
+  "youtube_settings": {
+    "video_urls": [
+      "https://www.youtube.com/watch?v=32iOW1AcpgQ"
+    ],
+    "loop_duration_minutes": 30,
+    "view_farming_enabled": true,
+    "random_delays": {
+      "min_seconds": 10,
+      "max_seconds": 30
+    }
+  },
+  "browser_settings": {
+    "headless": false,
+    "window_size": "1920x1080",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "chrome_path": "E:\\SeleniumYtb\\chrome-win64\\chrome.exe",
+    "chrome_options": [
+      "--no-sandbox",
+      "--disable-dev-shm-usage",
+      "--disable-blink-features=AutomationControlled",
+      "--disable-extensions",
+      "--disable-plugins",
+      "--disable-infobars",
+      "--disable-web-security",
+      "--disable-features=VizDisplayCompositor"
+    ]
+  },
+  "gmail_settings": {
+    "login_timeout": 180,
+    "max_login_attempts": 3,
+    "two_factor_auth_enabled": false,
+    "verify_login_success": true,
+    "captcha_wait_time": 120,
+    "element_wait_timeout": 30,
+    "slow_typing_enabled": true,
+    "typing_delay_range": [0.05, 0.25]
+  },
+  "automation_settings": {
+    "max_concurrent_instances": 2,
+    "instance_startup_delay": 90,
+    "monitoring_interval": 60,
+    "auto_restart_on_crash": true,
+    "use_proxy_rotation": false,
+    "login_cooldown_minutes": 10,
+    "rate_limit_per_hour": 10,
+    "stagger_delay_min": 30,
+    "stagger_delay_max": 120
+  },
+  "network_settings": {
+    "use_residential_proxy": false,
+    "retry_on_captcha": false,
+    "user_agent_rotation": true,
+    "fingerprint_randomization": true,
+    "connection_timeout": 60,
+    "max_retries": 3,
+    "retry_delay_multiplier": 2
+  },
+  "anti_detection_settings": {
+    "use_browser_profiles": true,
+    "randomize_window_size": true,
+    "randomize_viewport": true,
+    "fake_media_devices": true,
+    "mask_webgl_vendor": true,
+    "disable_automation_flags": true,
+    "human_like_behavior": true,
+    "mouse_movement_enabled": true,
+    "typing_mistakes_enabled": true,
+    "typing_mistake_probability": 0.02
+  },
+  "logging_settings": {
+    "log_level": "INFO",
+    "log_file": "logs/automation.log",
+    "log_rotation": true,
+    "max_log_size_mb": 100,
+    "backup_count": 5,
+    "console_output": true,
+    "save_failed_accounts": true,
+    "save_rate_limits": true
+  },
+  "recovery_settings": {
+    "skip_after_failures": 3,
+    "skip_2fa_accounts": true,
+    "skip_captcha_accounts": true,
+    "retry_failed_after_hours": 24,
+    "clear_cookies_on_failure": false,
+    "screenshot_on_failure": true
+  }
+}

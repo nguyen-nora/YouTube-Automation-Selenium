@@ -1,0 +1,85 @@
+YouTube Automation - Build Quick Start Guide
+===========================================
+
+QUICK BUILD STEPS:
+-----------------
+
+1. STANDARD BUILD (Recommended for first time):
+   
+   Option A - Using batch file:
+   > build.bat
+   
+   Option B - Using Python directly:
+   > python build.py
+   
+   Option C - Using PowerShell:
+   > .\build.ps1
+
+2. BUILD WITHOUT UPX COMPRESSION (If UPX not installed):
+   
+   > python build.py --no-upx
+   OR
+   > build.bat --no-upx
+
+3. CLEAN BUILD ARTIFACTS ONLY:
+   
+   > python build.py --clean-only
+   OR
+   > build.bat clean
+
+4. VERBOSE BUILD (For troubleshooting):
+   
+   > python build.py --verbose
+   OR
+   > build.bat verbose
+
+
+BEFORE YOU BUILD:
+----------------
+✓ Ensure Python 3.7+ is installed
+✓ Ensure PyInstaller is installed (pip install pyinstaller)
+✓ Ensure chrome-win64 directory exists with Chrome browser
+✓ Ensure chromedriver.exe is present in the root directory
+✓ Ensure all dependencies are installed (pip install -r requirements.txt)
+
+
+AFTER BUILD:
+-----------
+Your packaged application will be in the 'dist' directory:
+- Single file build: dist/youtube_automation.exe
+- Directory build: dist/youtube_automation/
+
+The distribution includes:
+- The main executable
+- Chrome browser (portable)
+- ChromeDriver
+- Configuration files
+- All necessary dependencies
+
+
+COMMON COMMANDS:
+---------------
+# First time setup
+pip install -r requirements.txt
+pip install pyinstaller
+
+# Clean and rebuild
+python build.py --clean-only
+python build.py
+
+# Build without compression
+python build.py --no-upx
+
+# Use alternate spec file
+python build.py --spec-file youtube_automation_dir.spec
+
+
+TROUBLESHOOTING:
+---------------
+- If build fails, run with --verbose flag
+- Check BUILD_DOCUMENTATION.md for detailed help
+- Ensure antivirus is not blocking PyInstaller
+- Make sure all paths use forward slashes or escaped backslashes
+
+
+For detailed documentation, see BUILD_DOCUMENTATION.md

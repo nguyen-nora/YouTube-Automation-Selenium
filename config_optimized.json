@@ -1,0 +1,47 @@
+{
+  "youtube_settings": {
+    "video_urls": [
+      "https://www.youtube.com/watch?v=32iOW1AcpgQ"
+    ],
+    "loop_duration_minutes": 30,
+    "view_farming_enabled": true,
+    "random_delays": {
+      "min_seconds": 10,
+      "max_seconds": 30
+    }
+  },
+  "browser_settings": {
+    "headless": false,
+    "window_size": "1920x1080",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "chrome_path": "E:\\SeleniumYtb\\chrome-win64\\chrome.exe",
+    "chrome_options": [
+      "--no-sandbox",
+      "--disable-dev-shm-usage",
+      "--disable-blink-features=AutomationControlled",
+      "--disable-extensions",
+      "--disable-plugins"
+    ]
+  },
+  "gmail_settings": {
+    "login_timeout": 120,
+    "max_login_attempts": 2,
+    "two_factor_auth_enabled": false,
+    "verify_login_success": true,
+    "captcha_wait_time": 60
+  },
+  "automation_settings": {
+    "max_concurrent_instances": 2,
+    "instance_startup_delay": 60,
+    "monitoring_interval": 60,
+    "auto_restart_on_crash": false,
+    "use_proxy_rotation": false,
+    "login_cooldown_minutes": 5
+  },
+  "network_settings": {
+    "use_residential_proxy": false,
+    "retry_on_captcha": false,
+    "user_agent_rotation": true,
+    "fingerprint_randomization": true
+  }
+}

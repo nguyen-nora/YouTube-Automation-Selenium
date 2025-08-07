@@ -1,0 +1,10 @@
+# Example email.txt file
+# Format: email:password or email password
+# Lines starting with # are comments and will be ignored
+
+example1@gmail.com:mypassword123
+example2@gmail.com:anotherpass456
+example3@gmail.com password789
+
+# You can also use space as separator
+user@gmail.com mysecretpass

@@ -1,0 +1,317 @@
+{
+  "tested_selectors": {
+    "email_input": {
+      "selector": "input[type=\"email\"]",
+      "found": true,
+      "info": [
+        {
+          "index": 0,
+          "visible": true,
+          "enabled": true,
+          "tag": "input",
+          "text": "",
+          "id": "identifierId",
+          "name": "identifier",
+          "class": "whsOnd zHQkBf",
+          "aria-label": "Email or phone"
+        }
+      ]
+    },
+    "password_input": {
+      "selector": "input[type=\"password\"]",
+      "found": true,
+      "info": [
+        {
+          "index": 0,
+          "visible": false,
+          "enabled": true,
+          "tag": "input",
+          "text": "",
+          "id": "",
+          "name": "hiddenPassword",
+          "class": "Hvu6D",
+          "aria-label": null
+        }
+      ]
+    },
+    "next_button": {
+      "selector": "#identifierNext button",
+      "found": true,
+      "info": [
+        {
+          "index": 0,
+          "visible": true,
+          "enabled": true,
+          "tag": "button",
+          "text": "Next",
+          "id": "",
+          "name": "",
+          "class": "VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-k8QpJ VfPpkd-LgbsSe-OWXEXe-dgl2Hf nCP5yc AjY5Oe DuMIQc LQeN7 BqKGqe Jskylb TrZEUc lw1w4b",
+          "aria-label": null
+        }
+      ]
+    },
+    "password_next_button": {
+      "selector": "#passwordNext button",
+      "found": false,
+      "info": null
+    },
+    "signin_button": {
+      "selector": "button[type=\"submit\"]",
+      "found": false,
+      "info": null
+    },
+    "account_picker": {
+      "selector": "div[data-email]",
+      "found": false,
+      "info": null
+    },
+    "use_another_account": {
+      "selector": "div[data-email=\"\"]",
+      "found": false,
+      "info": null
+    },
+    "add_account": {
+      "selector": "div[data-email=\"\"]",
+      "found": false,
+      "info": null
+    }
+  },
+  "found_elements": {
+    "working_email_selector": "input[type=\"email\"]",
+    "working_next_button_selector": "#identifierNext button"
+  },
+  "alternative_selectors": {
+    "email_input": [
+      {
+        "selector": "input[type=\"email\"]",
+        "info": [
+          {
+            "index": 0,
+            "visible": true,
+            "enabled": true,
+            "tag": "input",
+            "text": "",
+            "id": "identifierId",
+            "name": "identifier",
+            "class": "whsOnd zHQkBf",
+            "aria-label": "Email or phone"
+          }
+        ]
+      },
+      {
+        "selector": "input[name=\"identifier\"]",
+        "info": [
+          {
+            "index": 0,
+            "visible": true,
+            "enabled": true,
+            "tag": "input",
+            "text": "",
+            "id": "identifierId",
+            "name": "identifier",
+            "class": "whsOnd zHQkBf",
+            "aria-label": "Email or phone"
+          }
+        ]
+      },
+      {
+        "selector": "input[id=\"identifierId\"]",
+        "info": [
+          {
+            "index": 0,
+            "visible": true,
+            "enabled": true,
+            "tag": "input",
+            "text": "",
+            "id": "identifierId",
+            "name": "identifier",
+            "class": "whsOnd zHQkBf",
+            "aria-label": "Email or phone"
+          }
+        ]
+      },
+      {
+        "selector": "input[aria-label*=\"Email\"]",
+        "info": [
+          {
+            "index": 0,
+            "visible": true,
+            "enabled": true,
+            "tag": "input",
+            "text": "",
+            "id": "identifierId",
+            "name": "identifier",
+            "class": "whsOnd zHQkBf",
+            "aria-label": "Email or phone"
+          }
+        ]
+      }
+    ],
+    "password_input": [
+      {
+        "selector": "input[type=\"password\"]",
+        "info": [
+          {
+            "index": 0,
+            "visible": false,
+            "enabled": true,
+            "tag": "input",
+            "text": "",
+            "id": "",
+            "name": "hiddenPassword",
+            "class": "Hvu6D",
+            "aria-label": null
+          }
+        ]
+      }
+    ],
+    "next_button": [
+      {
+        "selector": "#identifierNext button",
+        "info": [
+          {
+            "index": 0,
+            "visible": true,
+            "enabled": true,
+            "tag": "button",
+            "text": "Next",
+            "id": "",
+            "name": "",
+            "class": "VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-k8QpJ VfPpkd-LgbsSe-OWXEXe-dgl2Hf nCP5yc AjY5Oe DuMIQc LQeN7 BqKGqe Jskylb TrZEUc lw1w4b",
+            "aria-label": null
+          }
+        ]
+      },
+      {
+        "selector": "#identifierNext",
+        "info": [
+          {
+            "index": 0,
+            "visible": true,
+            "enabled": true,
+            "tag": "div",
+            "text": "Next",
+            "id": "identifierNext",
+            "name": null,
+            "class": "XjS9D TrZEUc",
+            "aria-label": null
+          }
+        ]
+      },
+      {
+        "selector": "div[id=\"identifierNext\"]",
+        "info": [
+          {
+            "index": 0,
+            "visible": true,
+            "enabled": true,
+            "tag": "div",
+            "text": "Next",
+            "id": "identifierNext",
+            "name": null,
+            "class": "XjS9D TrZEUc",
+            "aria-label": null
+          }
+        ]
+      },
+      {
+        "selector": "button[jsname=\"LgbsSe\"]",
+        "info": [
+          {
+            "index": 0,
+            "visible": false,
+            "enabled": true,
+            "tag": "button",
+            "text": "",
+            "id": "",
+            "name": "",
+            "class": "VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-Bz112c-M1Soyc VfPpkd-LgbsSe-OWXEXe-dgl2Hf ksBjEc lKxP2d LQeN7 BqKGqe eR0mzb TrZEUc lw1w4b",
+            "aria-label": "Listen and type the numbers you hear"
+          },
+          {
+            "index": 1,
+            "visible": true,
+            "enabled": true,
+            "tag": "button",
+            "text": "Next",
+            "id": "",
+            "name": "",
+            "class": "VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-k8QpJ VfPpkd-LgbsSe-OWXEXe-dgl2Hf nCP5yc AjY5Oe DuMIQc LQeN7 BqKGqe Jskylb TrZEUc lw1w4b",
+            "aria-label": null
+          }
+        ]
+      }
+    ],
+    "password_next_button": [
+      {
+        "selector": "button[jsname=\"LgbsSe\"]",
+        "info": [
+          {
+            "index": 0,
+            "visible": false,
+            "enabled": true,
+            "tag": "button",
+            "text": "",
+            "id": "",
+            "name": "",
+            "class": "VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-Bz112c-M1Soyc VfPpkd-LgbsSe-OWXEXe-dgl2Hf ksBjEc lKxP2d LQeN7 BqKGqe eR0mzb TrZEUc lw1w4b",
+            "aria-label": "Listen and type the numbers you hear"
+          },
+          {
+            "index": 1,
+            "visible": true,
+            "enabled": true,
+            "tag": "button",
+            "text": "Next",
+            "id": "",
+            "name": "",
+            "class": "VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-k8QpJ VfPpkd-LgbsSe-OWXEXe-dgl2Hf nCP5yc AjY5Oe DuMIQc LQeN7 BqKGqe Jskylb TrZEUc lw1w4b",
+            "aria-label": null
+          }
+        ]
+      }
+    ]
+  },
+  "page_structure": {
+    "login_page": {
+      "url": "https://accounts.google.com/v3/signin/identifier?ifkv=AdBytiNvE9pugQDeCWq8R7OCekudeG7lIRsjNp0RhXkloYIXnvwkCtzjGw5Q0ejiNu5Im6SKwEb3FQ&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S69683223%3A1753362413850238",
+      "title": "Sign in - Google Accounts",
+      "inputs": [
+        {
+          "type": "email",
+          "name": "identifier",
+          "id": "identifierId",
+          "placeholder": "",
+          "aria-label": "Email or phone",
+          "autocomplete": "username webauthn"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "Forgot email?",
+          "id": "",
+          "class": "",
+          "type": "button",
+          "jsname": "Cuz2Ue"
+        },
+        {
+          "text": "Next",
+          "id": "",
+          "class": "VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-k8QpJ VfPpkd-LgbsSe-OWXEXe-dgl2Hf nCP5yc AjY5Oe DuMIQc LQeN7 BqKGqe Jskylb TrZEUc lw1w4b",
+          "type": "button",
+          "jsname": "LgbsSe"
+        },
+        {
+          "text": "Create account",
+          "id": "",
+          "class": "VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-dgl2Hf ksBjEc lKxP2d LQeN7 BqKGqe eR0mzb TrZEUc  J7pUA",
+          "type": "button",
+          "jsname": null
+        }
+      ],
+      "clickable_divs": []
+    }
+  },
+  "recommendations": []
+}

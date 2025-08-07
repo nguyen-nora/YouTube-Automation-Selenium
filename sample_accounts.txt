@@ -1,0 +1,7 @@
+# Sample email accounts file
+# Format: email:password (one per line)
+# Lines starting with # are comments and will be ignored
+
+user1@gmail.com:password123
+user2@gmail.com:securepass456
+automation.test@gmail.com:testpass789
